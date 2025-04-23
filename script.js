@@ -25,3 +25,11 @@ prev2.addEventListener('click', function(){
     let items = document.querySelectorAll('.item-ex')
     document.querySelector('.slide-ex').prepend(items[items.length - 1])
 })
+
+// responsive for navbar
+const mobileMenu = document.getElementById('mobile-menu');
+const navList = document.querySelector('.nav-list');
+
+mobileMenu.addEventListener('click', () => {
+    navList.classList.toggle('active');
+});
