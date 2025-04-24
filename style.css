@@ -378,9 +378,9 @@ body{
     .container-op{
         z-index: 99;
         position: absolute;
-        bottom: 35%;
+        bottom: 40%;
         width: 1200px;
-        max-width: 80%;
+        max-width: 90%;
         margin: auto;
         left: 50%;
         transform: translate(-50%);
@@ -403,10 +403,20 @@ body{
         font-size: 1rem;
         letter-spacing: .1rem;
         line-height: 1.5rem;
-        margin-bottom: .8rem;
+        margin-bottom: .5rem;
         color: white;
         text-shadow: none;
         transition: .3s;
+    }
+
+    .container-op .list-op .detail-op .desc-op{
+        margin-top: 1rem;
+        margin-left: 9%;
+        text-align: center;
+        font-weight: 100;
+        font-size: .7rem;
+        letter-spacing: 1px;
+        color: white;
     }
 }
 
@@ -633,7 +643,7 @@ body{
         object-fit: cover;
         position: absolute;
         left: -72%;
-        bottom: 40%;
+        bottom: 43%;
         transition: .3s;
     }
 
@@ -957,7 +967,7 @@ body{
         position: absolute;
         top: 65%;
         left: 20px;
-        width: 275px;
+        width: 260px;
         text-align: left;
         color: white;
         transform: translate(0, -50%);
@@ -1021,8 +1031,8 @@ body{
     }
 
     .content a.skills-a{
-        padding: 10px 20px;
-        font-size: .8rem;
+        padding: 5px 15px;
+        font-size: .5rem;
         border: none;
         border-radius: 25px;
         cursor: pointer;
@@ -1068,8 +1078,8 @@ body{
     }
 
     .button-slide button:hover{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         align-items: center;
         border-radius: 50%;
         border: none;
@@ -1217,6 +1227,7 @@ body{
     opacity: 0;
     font-weight: 100;
     font-size: .8rem;
+    letter-spacing: .1rem;
     animation: animate-2 2s ease-in-out .3s 1 forwards;
 }
 
@@ -1359,7 +1370,7 @@ body{
         position: absolute;
         top: 65%;
         left: 20px;
-        width: 275px;
+        width: 280px;
         text-align: left;
         color: white;
         transform: translate(0, -50%);
@@ -1425,8 +1436,8 @@ body{
     }
     
     .content-ex a.ex-a{
-        padding: 10px 20px;
-        font-size: .8rem;
+        padding: 5px 15px;
+        font-size: .5rem;
         border: none;
         border-radius: 25px;
         cursor: pointer;
@@ -1456,8 +1467,8 @@ body{
         align-items: center;
         text-align: center;
         position: relative;
-        bottom: 1%;
-        left: 31%;
+        bottom: -5%;
+        left: -10%;
     }
     
     .button-ex button{
@@ -1473,8 +1484,8 @@ body{
     }
     
     .button-ex button:hover{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         align-items: center;
         border-radius: 50%;
         border: none;
@@ -1715,7 +1726,7 @@ body{
     
     .container-gal .picture-1 img.img-2{
         width: 14%;
-        height: 30%;
+        height: 28%;
         border-radius: 25px;
         object-fit: cover;
         position: absolute;
@@ -1724,11 +1735,11 @@ body{
     
     .container-gal .picture-1 img.img-3{
         width: 14%;
-        height: 30%;
+        height: 28%;
         border-radius: 25px;
         object-fit: cover;
         position: absolute;
-        left: 11.5rem;
+        left: 11rem;
     }
     
     .container-gal .picture-1 img.img-4{
@@ -1737,7 +1748,7 @@ body{
         border-radius: 25px;
         object-fit: cover;
         position: absolute;
-        left: 15.6rem;
+        left: 15.5rem;
     }
     
     .container-gal .picture-1 img.img-5{
@@ -1747,17 +1758,17 @@ body{
         object-fit: cover;
         position: absolute;
         left: 15.6rem;
-        top: 33rem;
+        top: 32rem;
     }
     
     .container-gal .picture-1 img.img-6{
         width: 30%;
-        height: 20%;
+        height: 22%;
         border-radius: 25px;
         object-fit: cover;
         position: absolute;
         left: 15.6rem;
-        top: 40rem;
+        top: 38.5rem;
     }
     
     .container-gal .picture-1 img.img-7{
